@@ -1,0 +1,73 @@
+.main_content_div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    overflow-x: none;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.content_div_cta_row{
+    margin: 25px 25px 10px 25px;
+    padding: 0;
+    display: flex;
+}
+
+.backbtn_cont{
+    margin: 0;
+    padding: 7px 10px;
+    display: flex;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+}
+
+.backbtn_cont:hover{
+    background-color: #FFC145;
+}
+
+.backbtn_img_div{
+    margin: auto 10px auto 0;
+    padding: 0;
+}
+
+.backbtn_img_div img{
+    display: block;
+}
+
+.backbtn_cont p{
+    margin: auto 5px auto 0;
+    padding: 0;
+    font-size: 0.812rem;
+    font-weight: 500;
+    color: #2B2D42;
+}
+
+.main_content_title_div{
+    margin: 0 40px;
+    padding: 0;
+}
+
+.content_title{
+
+}
+
+
+

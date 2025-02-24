@@ -1,0 +1,457 @@
+.backbtn_cont{
+    margin: 0 auto 0 0;
+    padding: 7px 10px;
+    display: flex;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+    border: #2B2D42 solid 1px;
+}
+
+.backbtn_cont:hover{
+    background-color: #FFC145;
+    border: #FFC145 solid 1px;
+}
+
+.backbtn_img_div{
+    margin: auto 10px auto 0;
+    padding: 0;
+}
+
+.backbtn_img_div img{
+    display: block;
+}
+
+.backbtn_cont p{
+    margin: auto 5px auto 0;
+    padding: 0;
+    font-size: 0.812rem;
+    font-weight: 500;
+    color: #2B2D42;
+}
+
+.editbtn_cont{
+    margin: auto 0;
+    padding: 10px 30px;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+    font-size: 0.812rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+.editbtn_cont:hover{
+    background-color: #FFC145;
+    color: #2B2D42;
+}
+
+
+
+/* 
+
+    USERINFO
+
+*/
+.main_userinfo_container{
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+}
+
+.main_userinfo_div{
+    margin: 0 5px 0 0;
+    padding: 20px;
+    display: flex;
+    min-width: 504px;
+    width: 70%;
+    background-color: #FFFFFF;
+    overflow-x: none;
+    overflow-y: none;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.userinfo_avatar_div{
+    margin: auto 30px auto 20px;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.userinfo_avatar{
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+}
+
+.userinfo_cta_div{
+    margin: 20px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.userinfo_edit_btn{
+    margin: auto;
+    padding: 7px 20px;
+    color: #2B2D42;
+    font-size: 0.812rem;
+    font-weight: 400;
+    border: #2B2D42 solid 1px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+.userinfo_edit_btn:hover{
+    background-color: #2B2D42;
+    color: #EDF2F4;
+}
+
+
+
+/* 
+
+    USER INFO CONTENT
+
+*/
+.main_content_title_div{
+    margin: 0 40px;
+    padding: 0;
+}
+
+.content_title{
+
+}
+
+.userinfo_content_div{
+    margin: auto 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.userinfo_info_div{
+    margin: 2.5px 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.info_label{
+    margin: auto 0;
+    padding: 0;
+    width: 35%;
+    font-size: 0.812rem;
+}
+
+.info_cont{
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    font-size: 0.812rem;
+    font-weight: 700;
+    overflow-x: hidden;
+}
+
+
+/* 
+
+    USER WALLET
+
+*/
+
+.main_userwal_div{
+    margin: 0 0 0 5px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    min-width: 216px;
+    width: 30%;
+    background-color: #FFFFFF;
+    overflow-x: none;
+    overflow-y: none;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.main_userwal_title{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.userwal_bal{
+    margin: auto;
+    padding: 0;
+}
+
+
+
+/* 
+
+    LIST ITEM FOR PROPERTIES
+
+*/
+.main_userprop_container{
+    margin: 0 5px 0 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+}
+
+.main_userprop_cta_row{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.userprop_title{
+    margin: auto 0;
+}
+
+.userprop_cta_div{
+    margin: auto 0 auto auto;
+    padding: 0;
+    display: flex;
+}
+
+.userprop_cta{
+    margin: 0;
+    padding: 5px 15px;
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    font-size: 0.625rem;
+    font-weight: 500;
+    border: #2B2D42 solid 1px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+}
+
+.userprop_cta:hover{
+    background-color: #FFC145;
+    border: #FFC145 solid 1px;
+}
+
+.main_userprop_list_container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.userprop_list_item_container{
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 344px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.list_item_photo_div{
+    margin: 10px;
+    padding: 0;
+}
+
+.list_item_photo{
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.list_item_residence_div{
+    margin: 0 20px;
+    padding: 0;
+}
+
+.list_item_residence{
+
+}
+
+.list_item_owner_div{
+    margin: 10px 20px;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.list_item_owner_label{
+    font-size: 0.625rem;
+}
+
+.list_item_owner{
+    margin: 2px 0 0 0;
+    font-size: 0.812rem;
+    font-weight: 500;
+}
+
+.list_item_address_div{
+    margin: 0 20px;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.list_item_address_label{
+    font-size: 0.625rem;
+}
+
+.list_item_address{
+    margin: 2px 0 0 0;
+    font-size: 0.812rem;
+    font-weight: 500;
+}
+
+.list_item_cta_div{
+    margin: 20px;
+    padding: 0;
+    display: flex;
+}
+
+.list_item_cta{
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #2B2D42;
+    text-align: center;
+    font-size: 0.812rem;
+    font-weight: 500;
+    color: #EDF2F4;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+}
+
+.list_item_cta:hover{
+    background-color: #FFC145;
+    color: #2B2D42;
+}
+
+
+
+/* 
+
+    RECENT TRANSACTIONS
+
+*/
+
+.main_usertrans_container{
+    margin: 0 0 0 5px;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    max-height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.main_usertrans_cta_row{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.usertrans_title{
+    margin: 20px auto;
+}
+
+.main_usertrans_list_container{
+    margin: 0;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.usertrans_list_item_container{
+    margin: 5px 0;
+    padding: 0;
+    display: flex;
+}
+
+.usertrans_list_item{
+    font-size: 0.625rem;
+}
+
+.usertrans_list_item_cta{
+    margin: 0 0 0 auto;
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: #2B2D42;
+}
+
+.usertrans_list_item_cta:hover{
+    color: #FFC145;
+}

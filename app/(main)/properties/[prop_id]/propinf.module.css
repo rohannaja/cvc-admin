@@ -1,0 +1,449 @@
+.main_content_div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    overflow-x: none;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.content_div_cta_row{
+    margin: 25px 25px 10px 25px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.backbtn_cont{
+    margin: auto auto auto 0;
+    padding: 7px 10px;
+    display: flex;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+}
+
+.backbtn_cont:hover{
+    background-color: #FFC145;
+}
+
+.backbtn_img_div{
+    margin: auto 10px auto 0;
+    padding: 0;
+}
+
+.backbtn_img_div img{
+    display: block;
+}
+
+.backbtn_cont p{
+    margin: auto 5px auto 0;
+    padding: 0;
+    font-size: 0.812rem;
+    font-weight: 500;
+    color: #2B2D42;
+}
+
+.editprop_btn{
+    margin: auto 3px;
+    padding: 10px 20px;
+    font-size: 0.812rem;
+    font-weight: 500;
+    color: #2B2D42;
+    background-color: #FFFFFF;
+    border: #2B2D42 solid 1px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+}
+
+.editprop_btn:hover{
+    background-color: #FFC145;
+    border: #FFC145 solid 1px;
+}
+
+.consump_btn{
+    margin: auto 3px;
+    padding: 10px 20px;
+    font-size: 0.812rem;
+    font-weight: 500;
+    color: #2B2D42;
+    background-color: #FFFFFF;
+    border: #2B2D42 solid 1px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+}
+
+.consump_btn:hover{
+    background-color: #FFC145;
+    border: #FFC145 solid 1px;
+}
+
+.statements_btn{
+    margin: auto 3px;
+    padding: 10px 20px;
+    font-size: 0.812rem;
+    font-weight: 500;
+    color: #2B2D42;
+    background-color: #FFFFFF;
+    border: #2B2D42 solid 1px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+}
+
+.statements_btn:hover{
+    background-color: #FFC145;
+    border: #FFC145 solid 1px;
+}
+
+.newbillstat_btn{
+    margin: auto 3px;
+    padding: 10px 20px;
+    font-size: 0.812rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #2B2D42;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+}
+
+.newbillstat_btn:hover{
+    background-color: #FFC145;
+    color: #2B2D42;
+}
+
+
+
+.main_content_title_div{
+    margin: 0 40px;
+    padding: 0;
+}
+
+
+
+/* 
+
+    PROPERTY INFO CONTENT
+
+*/
+
+.main_propinf_container{
+    margin: 20px 30px 30px 30px;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.main_propinf_info_div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.propinf_info_img_div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 40%;
+}
+
+.propinf_info_img{
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.propinf_info_div{
+    margin: 0;
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+}
+
+.propinf_info_row{
+    margin: 3px 0;
+    padding: 0;
+    display: flex;
+}
+
+.propinf_info_cont{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+/* 
+
+    PROPERTY INFO LABEL AND CONTENT
+
+*/
+.propinf_info_paystat_label{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 0.812rem;
+}
+
+.propinf_info_paystat{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 0.812rem;
+}
+
+.propinf_info_paystat_pending{
+    margin: 5px 0 5px auto;
+    padding: 5px 15px;
+    font-weight: 500;
+    font-size: 0.625rem;
+    background-color: #FFC145;
+    color: #2B2D42;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.propinf_info_paystat_partial{
+    margin: 5px 0 5px auto;
+    padding: 5px 15px;
+    font-weight: 500;
+    font-size: 0.625rem;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.propinf_info_paystat_paid{
+    margin: 5px 0 5px auto;
+    padding: 5px 15px;
+    font-weight: 500;
+    font-size: 0.625rem;
+    background-color: #00D12E;
+    color: #FFFFFF;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.propinf_info_paystat_late{
+    margin: 5px 0 5px auto;
+    padding: 5px 15px;
+    font-weight: 500;
+    font-size: 0.625rem;
+    background-color: #D10000;
+    color: #FFFFFF;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.propinf_info_owner_label{
+    margin: 0;
+    padding: 0;
+    font-size: 0.812rem;
+}
+
+.propinf_info_owner{
+    margin: 0;
+    padding: 0;
+    font-size: 0.812rem;
+    font-weight: 700;
+}
+
+.propinf_info_address_label{
+    margin: 0;
+    padding: 0;
+    font-size: 0.812rem;
+}
+
+.propinf_info_address{
+    margin: 0;
+    padding: 0;
+    font-size: 0.812rem;
+    font-weight: 700;
+}
+
+.propinf_info_email_label{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 0.812rem;
+}
+
+.propinf_info_email{
+    margin: 0;
+    padding: 0;
+    font-size: 0.812rem;
+    font-weight: 700;
+}
+
+.propinf_info_phone_label{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 0.812rem;
+}
+
+.propinf_info_phone{
+    margin: 0;
+    padding: 0;
+    font-size: 0.812rem;
+    font-weight: 700;
+}
+
+
+
+/* 
+
+    PROPERTY COLLECTIBLES TOTAL
+
+*/
+.main_propinf_coll_div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.propinf_coll_data_container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.propinf_coll_data_curr_div{
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+.propinf_coll_data_tot_div{
+    margin: 0 0 0 10px;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+
+.propinf_coll_title_div{
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.propinf_coll_data_div{
+    margin: 10px 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    border-bottom: #8D99AE solid 1px;
+}
+
+.propinf_coll_data_row{
+    margin: 3px 0;
+    padding: 0;
+    display: flex;
+}
+
+.propinf_coll_data_label_div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 70%;
+}
+
+.propinf_coll_data_label{
+    margin: auto 0;
+    padding: 0;
+    font-size: 0.812rem;
+}
+
+.propinf_coll_data_cont_div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 30%;
+    text-align: right;
+}
+
+.propinf_coll_data_cont{
+    margin: auto 0 auto auto;
+    padding: 0;
+    font-size: 0.812rem;
+    font-weight: 700;
+}
+
+.propinf_coll_data_water_pending{
+    margin: auto 0 auto auto;
+    padding: 0;
+    font-size: 0.812rem;
+    font-weight: 700;
+    color: #FFC145;
+}
